@@ -29,3 +29,11 @@
 
 
 # # Coding Exercise 18
+
+chars = ["Nonsense", "Bob"]
+
+def sum_of_lengths(chars):
+    counting = 0
+    for char in chars:
+        counting = counting + char
+    print(len(chars))
