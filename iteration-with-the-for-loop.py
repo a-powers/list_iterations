@@ -30,10 +30,19 @@
 
 # # Coding Exercise 18
 
-chars = ["Nonsense", "Bob"]
-
 def sum_of_lengths(chars):
     counting = 0
     for char in chars:
-        counting = counting + char
-    print(len(chars))
+        counting = counting + len(char)
+    return(counting)
+print(sum_of_lengths(["Frog", "Toad"]))
+
+
+
+def product(numbas):
+    counts = 1
+    for num in numbas:
+        counts = counts * num
+    return(counts)
+print(product([1, 2, 3, 4, 5]))
+    
