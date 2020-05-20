@@ -35,7 +35,7 @@ def sum_of_lengths(chars):
     for char in chars:
         counting = counting + len(char)
     return(counting)
-print(sum_of_lengths(["Frog", "Toad"]))
+print(sum_of_lengths(["Frogs", "Toads"]))
 
 
 
