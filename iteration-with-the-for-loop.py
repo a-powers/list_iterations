@@ -29,5 +29,3 @@
 
 
 # # Coding Exercise 18
-
-"hi"
