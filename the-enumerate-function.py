@@ -16,19 +16,29 @@
 
 # Coding Exercise 20
 
-def in_list(strings, string):
-    for index, group in enumerate(strings):
-        if group == string:
-            return index
-    return -1
-print(in_list(["A", "B", "C"],"C"))
+# def in_list(strings, string):
+#     for index, group in enumerate(strings):
+#         if group == string:
+#             return index
+#     return -1
+# print(in_list(["A", "B", "C"],"C"))
 
 
 
 
-def sum_of_values_and_indices(number_list):
-    values = 0
-    for index, numbers in enumerate(number_list):
-        values = (index + numbers) + values
-    return values
-print(sum_of_values_and_indices([0, 0, 0, 0]))
+# def sum_of_values_and_indices(number_list):
+#     values = 0
+#     for index, numbers in enumerate(number_list):
+#         values = (index + numbers) + values
+#     return values
+# print(sum_of_values_and_indices([0, 0, 0, 0]))
+
+
+
+
+
+def index_list(strings, string):
+    for index, word in enumerate(strings):
+        if index == string:
+            return word
+print(index_list(["A", "B", "C"], 2))
