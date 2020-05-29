@@ -2,8 +2,8 @@
 #     print(number)
 
 
-# for number in range(0, 11):
-#     print(number)
+for number in range(0, 11):
+    print(number)
 
 
 # for number in range(10, 101, 10):
@@ -12,3 +12,4 @@
 
 for number in range(99, -99, -11):
     print(number)
+    

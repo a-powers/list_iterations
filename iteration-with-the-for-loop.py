@@ -1,30 +1,30 @@
-dinner = "Steak and Potatoes"
+# dinner = "Steak and Potatoes"
 
-for character in dinner:
-    print(character)
-
-
-numbers = [2, 3, 5, 7, 10]
-
-for number in numbers:
-    print(number * number)
+# for character in dinner:
+#     print(character)
 
 
+# numbers = [2, 3, 5, 7, 10]
 
-
-novelists = ["Fitzgerald", "Hemingway", "Steinbeck"]
-
-for novelist in novelists:
-    print(len(novelist))
+# for number in numbers:
+#     print(number * number)
 
 
 
 
-total = 0
+# novelists = ["Fitzgerald", "Hemingway", "Steinbeck"]
 
-for number in numbers:
-    total = total + number
-print(total)
+# for novelist in novelists:
+#     print(len(novelist))
+
+
+
+
+# total = 0
+
+# for number in numbers:
+#     total = total + number
+# print(total)
 
 
 
