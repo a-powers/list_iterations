@@ -64,10 +64,10 @@
 # print(sum_from(3, 9))
 
 
-def same_index_values(list1, list2):
-    results = []
-    for index, value in enumerate(list1):
-        if value == list2[index]:
-            results.append(index)
-    return results
-print(same_index_values([1, 2, 3], [3, 2, 1]))
+# def same_index_values(list1, list2):
+#     results = []
+#     for index, value in enumerate(list1):
+#         if value == list2[index]:
+#             results.append(index)
+#     return results
+# print(same_index_values([1, 2, 3], [3, 2, 1]))
