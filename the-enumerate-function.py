@@ -14,60 +14,60 @@ for index, errand in enumerate(errands):
 
 
 
-# Coding Exercise 20
+Coding Exercise 20
 
-# def in_list(strings, string):
-#     for index, group in enumerate(strings):
-#         if group == string:
-#             return index
-#     return -1
-# print(in_list(["A", "B", "C"],"C"))
-
-
-
-
-# def sum_of_values_and_indices(number_list):
-#     values = 0
-#     for index, numbers in enumerate(number_list):
-#         values = (index + numbers) + values
-#     return values
-# print(sum_of_values_and_indices([0, 0, 0, 0]))
+def in_list(strings, string):
+    for index, group in enumerate(strings):
+        if group == string:
+            return index
+    return -1
+print(in_list(["A", "B", "C"],"C"))
 
 
 
 
-
-# def index_list(strings, string):
-#     for index, word in enumerate(strings):
-#         if index == string:
-#             return word
-# print(index_list(["A", "B", "C"], 2))
+def sum_of_values_and_indices(number_list):
+    values = 0
+    for index, numbers in enumerate(number_list):
+        values = (index + numbers) + values
+    return values
+print(sum_of_values_and_indices([0, 0, 0, 0]))
 
 
 
 
 
-# Coding Exercise 21
-
-# def length_match(strings, integer):
-#     for index, animal in enumerate(strings):
-#         if len(animal) == integer:
-#             return index
-# print(length_match(["cat", "dogs", "mouse"], 4))
+def index_list(strings, string):
+    for index, word in enumerate(strings):
+        if index == string:
+            return word
+print(index_list(["A", "B", "C"], 2))
 
 
-# def sum_from(int_1, int_2):
-#     total = 0
-#     for number in range(int_1, int_2):
-#         total = total + number
-#     return total
-# print(sum_from(3, 9))
 
 
-# def same_index_values(list1, list2):
-#     results = []
-#     for index, value in enumerate(list1):
-#         if value == list2[index]:
-#             results.append(index)
-#     return results
-# print(same_index_values([1, 2, 3], [3, 2, 1]))
+
+Coding Exercise 21
+
+def length_match(strings, integer):
+    for index, animal in enumerate(strings):
+        if len(animal) == integer:
+            return index
+print(length_match(["cat", "dogs", "mouse"], 4))
+
+
+def sum_from(int_1, int_2):
+    total = 0
+    for number in range(int_1, int_2):
+        total = total + number
+    return total
+print(sum_from(3, 9))
+
+
+def same_index_values(list1, list2):
+    results = []
+    for index, value in enumerate(list1):
+        if value == list2[index]:
+            results.append(index)
+    return results
+print(same_index_values([1, 2, 3], [3, 2, 1]))
