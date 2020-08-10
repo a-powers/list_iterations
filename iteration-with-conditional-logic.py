@@ -25,10 +25,3 @@ other_values = [5, 10, 15, 20, 25, 30]
 
 
 
-def super_sum(strings):
-    total = 0
-    for string in strings:
-        if string[] == 's':
-            total += string
-    return total
-print(super_sum(["mustache"]))
