@@ -23,5 +23,3 @@ other_values = [5, 10, 15, 20, 25, 30]
 
 # print(greatest_numbers([1, 2, 3, 4, 5]))
 
-
-
